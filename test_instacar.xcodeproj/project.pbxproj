@@ -13,6 +13,15 @@
 		DB2E5C8824AD003600E2FA01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB2E5C8624AD003600E2FA01 /* Main.storyboard */; };
 		DB2E5C8A24AD003800E2FA01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB2E5C8924AD003800E2FA01 /* Assets.xcassets */; };
 		DB2E5C8D24AD003800E2FA01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB2E5C8B24AD003800E2FA01 /* LaunchScreen.storyboard */; };
+		DB2E5CA024AD00EA00E2FA01 /* Image+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2E5C9824AD00E900E2FA01 /* Image+CoreDataClass.swift */; };
+		DB2E5CA124AD00EA00E2FA01 /* Address+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2E5C9924AD00EA00E2FA01 /* Address+CoreDataClass.swift */; };
+		DB2E5CA224AD00EA00E2FA01 /* Owner+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2E5C9A24AD00EA00E2FA01 /* Owner+CoreDataClass.swift */; };
+		DB2E5CA324AD00EA00E2FA01 /* Car+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2E5C9B24AD00EA00E2FA01 /* Car+CoreDataClass.swift */; };
+		DB2E5CA624AD050B00E2FA01 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2E5CA524AD050B00E2FA01 /* DetailsViewController.swift */; };
+		DB2E5CA824AD07C100E2FA01 /* listings-temp.json in Resources */ = {isa = PBXBuildFile; fileRef = DB2E5CA724AD07C000E2FA01 /* listings-temp.json */; };
+		DB2E5CAA24AD08AB00E2FA01 /* DetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2E5CA924AD08AB00E2FA01 /* DetailsCell.swift */; };
+		DB2E5CAC24AD0B0F00E2FA01 /* HeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2E5CAB24AD0B0F00E2FA01 /* HeaderCell.swift */; };
+		DB2E5CAE24AD0C2700E2FA01 /* DetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2E5CAD24AD0C2700E2FA01 /* DetailsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,15 @@
 		DB2E5C8924AD003800E2FA01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB2E5C8C24AD003800E2FA01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB2E5C8E24AD003800E2FA01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB2E5C9824AD00E900E2FA01 /* Image+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Image+CoreDataClass.swift"; sourceTree = "<group>"; };
+		DB2E5C9924AD00EA00E2FA01 /* Address+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Address+CoreDataClass.swift"; sourceTree = "<group>"; };
+		DB2E5C9A24AD00EA00E2FA01 /* Owner+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Owner+CoreDataClass.swift"; sourceTree = "<group>"; };
+		DB2E5C9B24AD00EA00E2FA01 /* Car+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Car+CoreDataClass.swift"; sourceTree = "<group>"; };
+		DB2E5CA524AD050B00E2FA01 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		DB2E5CA724AD07C000E2FA01 /* listings-temp.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "listings-temp.json"; sourceTree = "<group>"; };
+		DB2E5CA924AD08AB00E2FA01 /* DetailsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsCell.swift; sourceTree = "<group>"; };
+		DB2E5CAB24AD0B0F00E2FA01 /* HeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCell.swift; sourceTree = "<group>"; };
+		DB2E5CAD24AD0C2700E2FA01 /* DetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +74,32 @@
 		DB2E5C7F24AD003600E2FA01 /* test_instacar */ = {
 			isa = PBXGroup;
 			children = (
+				DB2E5C9424AD00D900E2FA01 /* Models */,
 				DB2E5C8024AD003600E2FA01 /* AppDelegate.swift */,
 				DB2E5C8224AD003600E2FA01 /* SceneDelegate.swift */,
 				DB2E5C8424AD003600E2FA01 /* ViewController.swift */,
+				DB2E5CA524AD050B00E2FA01 /* DetailsViewController.swift */,
 				DB2E5C8624AD003600E2FA01 /* Main.storyboard */,
 				DB2E5C8924AD003800E2FA01 /* Assets.xcassets */,
 				DB2E5C8B24AD003800E2FA01 /* LaunchScreen.storyboard */,
+				DB2E5CA724AD07C000E2FA01 /* listings-temp.json */,
 				DB2E5C8E24AD003800E2FA01 /* Info.plist */,
+				DB2E5CA924AD08AB00E2FA01 /* DetailsCell.swift */,
+				DB2E5CAB24AD0B0F00E2FA01 /* HeaderCell.swift */,
+				DB2E5CAD24AD0C2700E2FA01 /* DetailsViewModel.swift */,
 			);
 			path = test_instacar;
+			sourceTree = "<group>";
+		};
+		DB2E5C9424AD00D900E2FA01 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DB2E5C9824AD00E900E2FA01 /* Image+CoreDataClass.swift */,
+				DB2E5C9B24AD00EA00E2FA01 /* Car+CoreDataClass.swift */,
+				DB2E5C9A24AD00EA00E2FA01 /* Owner+CoreDataClass.swift */,
+				DB2E5C9924AD00EA00E2FA01 /* Address+CoreDataClass.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +162,7 @@
 			files = (
 				DB2E5C8D24AD003800E2FA01 /* LaunchScreen.storyboard in Resources */,
 				DB2E5C8A24AD003800E2FA01 /* Assets.xcassets in Resources */,
+				DB2E5CA824AD07C100E2FA01 /* listings-temp.json in Resources */,
 				DB2E5C8824AD003600E2FA01 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +174,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB2E5CA124AD00EA00E2FA01 /* Address+CoreDataClass.swift in Sources */,
+				DB2E5CAE24AD0C2700E2FA01 /* DetailsViewModel.swift in Sources */,
+				DB2E5CAA24AD08AB00E2FA01 /* DetailsCell.swift in Sources */,
 				DB2E5C8524AD003600E2FA01 /* ViewController.swift in Sources */,
+				DB2E5CA024AD00EA00E2FA01 /* Image+CoreDataClass.swift in Sources */,
+				DB2E5CAC24AD0B0F00E2FA01 /* HeaderCell.swift in Sources */,
+				DB2E5CA224AD00EA00E2FA01 /* Owner+CoreDataClass.swift in Sources */,
 				DB2E5C8124AD003600E2FA01 /* AppDelegate.swift in Sources */,
 				DB2E5C8324AD003600E2FA01 /* SceneDelegate.swift in Sources */,
+				DB2E5CA324AD00EA00E2FA01 /* Car+CoreDataClass.swift in Sources */,
+				DB2E5CA624AD050B00E2FA01 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
