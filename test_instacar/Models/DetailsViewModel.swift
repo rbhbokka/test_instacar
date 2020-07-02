@@ -9,6 +9,13 @@
 import Foundation
 
 struct DetailsViewModel {
+    let price: String
+    let title: String
+    let trim: String
+    let year: String
+    let mileage: String
+    let zip: String
+    
     let sections: [DetailsSection]
     let images: [Image]?
     
@@ -34,6 +41,6 @@ extension Car {
         let contactInfo = DetailsViewModel.DetailsSection(sectionName: "Contact Info", rows: [P(label: "Email", value: NSAttributedString(string: owner?.email ?? "N/A")),
                                                                                               P(label: "Phone", value: NSAttributedString(string: phone ?? "N/A"))])
         
-        return DetailsViewModel(sections: [listingDetails, vehicleDetails, contactInfo], images: images)
+        return DetailsViewModel(price: String(price), title: title ?? "N/A", trim: trim ?? "", year: String(year), mileage: "\(mileage) miles", zip: addresses?.first?.zipcode ?? "N/A", sections: [listingDetails, vehicleDetails, contactInfo], images: images)
     }
 }
