@@ -11,6 +11,10 @@ import UIKit
 
 class HeaderCell: UIView {
     
+    //Wanted to use plain scrollview, but decided to cut the corner and use already existing implementation for scroll view in particular
+    //Still don't think that collection view here is needed
+    //
+    // + pictures are loading with some delay
     let carousel = AACarousel(frame: .zero)
 
     let price = UILabel()
